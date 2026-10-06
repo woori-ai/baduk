@@ -1,0 +1,17 @@
+# 의존성 및 빌드 산출물
+node_modules
+dist
+.dist
+
+# 대용량 설치 파일 및 임시 파일
+*.exe
+*.log
+.DS_Store
+
+# 환경 설정
+.env
+.env.local
+.venv
+
+# 외부 저장소 임시 클론
+scratch
